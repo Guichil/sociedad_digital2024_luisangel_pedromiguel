@@ -1,0 +1,189 @@
+/* Estilos básicos */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    color: white;
+}
+
+.header-bg {
+    background-image: url('https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.intro-text {
+    margin: 40px auto;
+    text-align: center;
+    max-width: 800px;
+}
+
+.intro-text h2 {
+    font-size: 42px;
+    color: #04728B;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Sección de características */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+.feature {
+    text-align: center;
+    width: 22%;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #04728B;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.feature p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Sección oscura */
+.section-dark {
+    background-color: #333;
+    color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-dark .text-block {
+    max-width: 45%;
+}
+
+.section-dark h2 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.section-dark p {
+    font-size: 20px;
+    color: #ccc;
+}
+
+.section-dark img {
+    width: 50%;
+    border-radius: 20px;
+}
+
+/* Sociedad digital */
+.society {
+    background: black;
+    color: white;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.society img {
+    margin-top: 40px;
+    border-radius: 20px;
+    max-width: 80%;
+    height: auto;
+}
+
+/* Hardware */
+.hardware {
+    background: #04728B;
+    color: white;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.hardware img {
+    margin-top: 40px;
+    border-radius: 20px;
+    max-width: 80%;
+}
+
+.hardware-detail {
+    margin-top: 40px;
+}
+
+.hardware-detail h3 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.hardware-detail p {
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #141416;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.footer-menu {
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #C7C7C7;
+}
